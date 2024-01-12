@@ -245,7 +245,6 @@ main {
     color: silver;
 }
 
-/* Add or remove hr styling based on your preference */
 .welcome-section hr,
 .promotions-section hr,
 .security-section hr,
@@ -256,4 +255,34 @@ main {
     border-top: 2px solid gold;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.footer {
+    background-color: black;
+    color: silver;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    color: silver;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    flex-grow: 1;
+}
+
+.footer a:hover {
+    color: gold;
 }
