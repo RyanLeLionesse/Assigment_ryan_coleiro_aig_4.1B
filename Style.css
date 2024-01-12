@@ -23,6 +23,7 @@ body {
 .logo-container img {
     width: 15%; /* Adjust logo width as a percentage */
     margin-right: 2%;
+    height: 15%;
 }
 
 .sidebar {
