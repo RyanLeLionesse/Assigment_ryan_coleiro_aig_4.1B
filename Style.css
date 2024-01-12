@@ -9,18 +9,19 @@ body {
     background: linear-gradient(to right, black, gold);
     color: silver;
     border: 2px solid gold;
-    padding: 5%; /* Adjust padding as a percentage */
-    margin-bottom: 5%;
+    padding: 2%; /* Adjust padding as a percentage */
+    margin-bottom: 2%;
     border-radius: 5%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-family: 'Helvetica', sans-serif;
     display: flex;
     align-items: center;
+    height: 80px; /* Set a specific height */
 }
 
 .logo-container img {
-    width: 5%; /* Adjust logo width as a percentage */
+    width: 15%; /* Adjust logo width as a percentage */
     margin-right: 2%;
 }
 
