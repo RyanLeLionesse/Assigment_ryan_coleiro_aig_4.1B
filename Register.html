@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="Javascript.js"></script>
+    
+    <title>PlanterWealth iGaming</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="Images/PlanetWealth.jpg" alt="PlanetWealth Logo">
+        </div>
+        <h1>PlanterWealth iGaming Register</h1>
+    </header>
+
+    <nav class="sidebar">
+        <ul>
+            <li><a href="PlanetWealth.html">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Register.html">Register</a></li>
+            <li><a href="Games.html">Games</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="register-form form-container" id="register-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" pattern="[A-Za-z][A-Za-z ]+" required>
+            
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" pattern="[A-Za-z][A-Za-z ]+" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" pattern="[0-9]+" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button onclick="validateAndRegister()">Register</button>
+        </div>
+    </main>
+
+</body>
+</html>

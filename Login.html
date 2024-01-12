@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="Javascript.js"></script>
+    <title>PlanterWealth iGaming</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="Images/PlanetWealth.jpg" alt="PlanetWealth Logo">
+            
+        </div>
+        <h1>PlanterWealth iGaming Login</h1>
+    </header>
+
+    <nav class="sidebar">
+        <ul>
+            <li><a href="PlanetWealth.html">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Register.html">Register</a></li>
+            <li><a href="Games.html">Games</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="login-form form-container" id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <button onclick="login()">Login</button>
+        </div>
+        <div>
+            <a href="#" id="forgot-link">Forgot Email/Password?</a>
+            <span> | </span>
+            <a href="#" id="not-registered-link">Not Registered?</a>
+        </div>
+    </main>
+
+</body>
+</html>

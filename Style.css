@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: black !important; /* Add !important */
+}
+
+.header {
+    background: linear-gradient(to right, black, gold);
+    color: silver;
+    border: 2px solid gold;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    padding-top: 25px;
+    font-family: 'Verdana', sans-serif;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    color: silver;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: 'Arial', sans-serif;
+}
+
+.sidebar a:hover {
+    background-color: gold;
+    color: white;
+}
+
+main {
+    margin-left: 220px;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    border: 2px solid gold;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.login-form,
+.register-form,
+.contact-info,
+.company-history,
+.company-journey,
+.social-media-outlets {
+    background-color: white;
+    border: 2px solid gold;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Calibri', sans-serif;
+    color: silver;
+}
+
+.login-form label,
+.register-form label,
+.contact-info h2,
+.contact-info strong,
+.company-history h2,
+.company-journey h2,
+.social-media-outlets h2,
+.company-history p,
+.company-journey p,
+.social-media-outlets p {
+    color: silver;
+}
+
+.login-form input,
+.register-form input,
+.login-form button,
+.register-form button,
+.contact-info a,
+.company-history,
+.company-journey,
+.social-media-outlets {
+    color: gold;
+    text-decoration: none;
+}
+
+.login-form input,
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.login-form button,
+.register-form button {
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form button:hover,
+.register-form button:hover {
+    background-color: white;
+    color: gold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game {
+    width: 30%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.game img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+
+.try-me-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: gold;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.try-me-button:hover {
+    background-color: white;
+    color: gold;
+}
