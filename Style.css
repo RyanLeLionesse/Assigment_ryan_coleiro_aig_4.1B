@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: black !important; 
+    background-color: black !important;
 }
 
 .header {
@@ -33,7 +33,8 @@ body {
     font-family: 'Verdana', sans-serif;
 }
 
-@media screen and (max-width: 768px) {
+/* Media query for tablets (landscape) */
+@media only screen and (max-width: 1024px) {
     .sidebar {
         width: 100%;
         position: static;
@@ -43,14 +44,28 @@ body {
     main {
         margin-left: 0;
     }
+}
 
-    .game {
-        width: 100%;
+/* Media query for tablets and smaller screens (portrait) */
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        padding-top: 0;
+    }
+
+    main {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .gallery-item img,
+    .game img {
+        height: 150px; /* Adjust image height for smaller screens */
     }
 
     .try-me-button {
         position: static;
         transform: none;
+        margin-top: 10px;
     }
 
     .footer {
@@ -232,6 +247,7 @@ main {
     color: silver;
 }
 
+/* Apply the styles to the existing main sections */
 .welcome-section,
 .promotions-section,
 .security-section,
