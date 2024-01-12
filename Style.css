@@ -187,3 +187,73 @@ main {
     background-color: white;
     color: gold;
 }
+
+.main-section {
+    background-color: white;
+    border: 2px solid gold;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Calibri', sans-serif;
+    color: silver;
+}
+
+.main-section h2 {
+    color: gold;
+}
+
+.main-section p {
+    color: silver;
+}
+
+/* Apply the styles to the existing main sections */
+.welcome-section,
+.promotions-section,
+.security-section,
+.mobile-section,
+.responsible-gaming-section,
+.faq-section,
+.registration-section {
+    background-color: white;
+    border: 2px solid gold;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Calibri', sans-serif;
+    color: silver;
+}
+
+.welcome-section h2,
+.promotions-section h2,
+.security-section h2,
+.mobile-section h2,
+.responsible-gaming-section h2,
+.faq-section h2,
+.registration-section h2 {
+    color: gold;
+}
+
+.welcome-section p,
+.promotions-section p,
+.security-section p,
+.mobile-section p,
+.responsible-gaming-section p,
+.faq-section p,
+.registration-section p {
+    color: silver;
+}
+
+/* Add or remove hr styling based on your preference */
+.welcome-section hr,
+.promotions-section hr,
+.security-section hr,
+.mobile-section hr,
+.responsible-gaming-section hr,
+.faq-section hr {
+    border: none;
+    border-top: 2px solid gold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
